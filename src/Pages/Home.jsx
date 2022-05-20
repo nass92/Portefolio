@@ -4,6 +4,8 @@ import '../Styles/Pages/Home.css'
 import NavBar from "../Components/Navbar";
 import GridTemplate from "../Components/Welcom";
 import { motion } from "framer-motion";
+import ButtonsBottom from "../Components/ButtonBottom";
+import Valise from "./Valise";
 const Home = () => {
     const variants = {
         initial: {
@@ -38,7 +40,9 @@ const Home = () => {
     
      
  
-  
+         <div className="fixed-bottom">
+    <ButtonsBottom right="/valise"/>
+    </div>
             </div>
             </motion.div>
     );

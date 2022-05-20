@@ -6,6 +6,7 @@ import NavBar from './Components/Navbar';
 import Valise from './Pages/Valise';
 import ButtonsBottom from './Components/ButtonBottom';
 import { motion } from "framer-motion";
+import Valise1 from './Components/valise/Valise1';
 function App() {
  
   return (<>
@@ -17,9 +18,7 @@ function App() {
       <Route exact path="/" element={<Home/>}></Route>
       <Route  path="/valise" element={<Valise/>}></Route>
     </Routes>
-    <div className="fixed-bottom">
-    <ButtonsBottom left="/" right={"/"} />
-    </div>
+    
    
     </main>
     

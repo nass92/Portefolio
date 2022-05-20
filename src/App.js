@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import "./App.css"
+import NavBar from './Components/Navbar';
+import Valise from './Pages/Valise';
+import ButtonsBottom from './Components/ButtonBottom';
+import { motion } from "framer-motion";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ 
+  return (<>
+  <div class="fixed-top">
+<NavBar/>
+        </div>
+<main> 
+    <Routes>
+      <Route exact path="/" element={<Home/>}></Route>
+      <Route  path="/valise" element={<Valise/>}></Route>
+    </Routes>
+    <div className="fixed-bottom">
+    <ButtonsBottom left="/" right={"/"} />
     </div>
+   
+    </main>
+    
+  </>
+
   );
 }
 

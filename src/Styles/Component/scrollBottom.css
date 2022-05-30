@@ -3,7 +3,7 @@
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  color:rgb(141, 141, 141);
+  color:rgb(193, 189, 189);
   font-size: 1.7rem;
   perspective: 40px;
   }
@@ -23,12 +23,14 @@
   }
   .scroll-bottom:hover .sb-main{
     pointer-events: auto;
+    color:rgb(255, 255, 255);
   }
   .scroll-bottom .left {
       grid-area: a;
     }
     .scroll-bottom p {
       grid-area: b;
+    
       
     }
 
@@ -49,7 +51,7 @@
     }
 
     .scroll-bottom:hover span {
-      color: rgb(40, 40, 40);
+      color: rgb(250, 247, 247);
       font-size: 1.8rem;
     }
     @media screen and (max-width: 430px){

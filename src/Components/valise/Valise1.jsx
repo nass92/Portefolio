@@ -1,6 +1,7 @@
 import React from 'react'
-import GridTemplate1 from './Grid';
+import GridTemplate1 from '../compo/Grid';
 import { motion } from "framer-motion";
+import { Heading, Text } from '@chakra-ui/react';
 const Valise1 = () => {
     const variants = {
         initial: {
@@ -19,33 +20,24 @@ const Valise1 = () => {
         }
       };
     return (
+    <motion.div
+    className="home"
+    initial="initial"
+    animate="visible"
+    exit="exit"
+    variants={variants}
+    >
+      <Text mt="80px" mb="20px" size="18px" color="gray.500">CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</Text>
+      <Heading   color="white"> What I Do </Heading>
+      <GridTemplate1 
+        title='Full Stack Development'
+        desc=' Building responsive App in React.js'
+        desc2=' Building responsive websites using Chakra Ui'
+        src='https://assets5.lottiefiles.com/private_files/lf30_obidsi0t.json'
+        left='/'
         
-        <motion.div
-        className="home"
-        initial="initial"
-        animate="visible"
-        exit="exit"
-        variants={variants}
-      >
-    
-    <GridTemplate1
-         title='Full Stack Development'
-         desc='
-         ⚡ Developing Smart Contract using Solidity on Hardhat.
-        
-         ⚡ Building Scripts for automated testing deployment of Smart Contracts using  Infura
-         
-         ⚡ Experience of using Openzeppelin Smart Contract Standards
-         
-         ⚡ Developing NFT Smart Contracts using ERC-721 Token Standard
-         
-         ⚡ Building Dapps with React.js, Solidity using Web3.js, IPFS'
-      src='https://assets5.lottiefiles.com/packages/lf20_dt0twxk1.json'
-      left=""
-      right="/"/>
-    
-    
-</motion.div>
+        />
+     </motion.div>
 
     )
 }

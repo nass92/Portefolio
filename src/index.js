@@ -7,14 +7,22 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from "@chakra-ui/react"
 import { BrowserRouter as Router } from "react-router-dom"
+import Video from './assets/video.mp4';
+import './App.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+ 
      <ChakraProvider>
+ 
        <Router>
+       
     <App />
+  
     </Router>
+   
     </ChakraProvider>
+
   </React.StrictMode>
 );
 

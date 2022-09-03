@@ -28,7 +28,7 @@ const NavBar = () => {
           <Link to="/"id="logo">Welcome</Link >
           <Link to="/valise"  id="logo" >What i do</Link >
           <Link to="/education" id="logo" >Education</Link >
-          <Link to="/"  id="logo" >Project</Link >
+          <Link to="/project"  id="logo" >Project</Link >
           <Link to="/contact" id="logo" >Contact Me</Link >
         </div>
         <div id="list-containers2">

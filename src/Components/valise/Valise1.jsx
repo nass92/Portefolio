@@ -31,8 +31,11 @@ const Valise1 = () => {
       <Heading   color="white"> What I Do </Heading>
       <GridTemplate1 
         title='Full Stack Development'
-        desc=' Building responsive App in React.js'
-        desc2=' Building responsive websites using Chakra Ui'
+        desc=' Building  App in React.js'
+        desc2=' Building with Chakra Ui Library'
+        desc3= 'Css responsive'
+        desc4= "Bootstrap responsive"
+        desc5="Shell commands"
         src='https://assets5.lottiefiles.com/private_files/lf30_obidsi0t.json'
         left='/'
         

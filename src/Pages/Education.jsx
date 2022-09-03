@@ -43,16 +43,10 @@ const Education = () => {
           <Grid templateColumns='repeat(3)' gap={4} mt={["50px","100px","150px"]}  >
 
           <GridItem  colSpan={[2, 2, 2, 2, 3, 3]} mt={['90px', '40px','100px']}    >
-              <Heading  color="#a9b4f1" > Poly-languages, can work every-where... </Heading>
+              <Heading  color="#a9b4f1" > Bonjour, Hello, Hola, سلام ... </Heading>
             </GridItem>
 
-            <GridItem colSpan={1} mt="100px" ml={["0px","25px","0px"]}  >
-            <Center>
-              <Box p={5} shadow='md' borderWidth='1px' maxW="500px" ml={["0px", "50px", "100px"]} >
-              <Reveale/>
-              </Box>
-              </Center>
-            </GridItem>
+        
         
             <GridItem colStart={ [1, 1, 1, 1,2, 2]  } colEnd={[3, 3, 3, 3, 3, 3]}   >
            <Grid column='repeat(5)'>

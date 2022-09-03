@@ -52,7 +52,7 @@ const NavBar = () => {
                 <Link to="/"id="logo1">welcome</Link >
                 <Link to="/valise"  id="logo1" >What i do</Link >
                 <Link to="/education" id="logo1" >Education</Link >
-                <Link to="/"  id="logo1" >Project</Link >
+                <Link to="/project"  id="logo1" >Project</Link >
                 <Link to="/contact" id="logo1" >Contact Me</Link >
               </SimpleGrid>
               </Center>

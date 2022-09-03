@@ -89,7 +89,7 @@ const Education = () => {
           </Grid>
         </div>
         <div className="fixed-bottom" >
-        <ButtonsBottom left='/valise' right='/'/>
+        <ButtonsBottom left='/valise' right='/project'/>
         </div>
     </motion.div>
     );

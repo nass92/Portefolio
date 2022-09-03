@@ -2,7 +2,6 @@ import React from "react";
 import { Fade } from "react-reveal";
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import { Box, Center, Grid, GridItem, Heading, } from "@chakra-ui/react";
-import ButtonsBottom from "../ButtonBottom";
 import {
   List,
   ListItem,
@@ -10,7 +9,7 @@ import {
 } from '@chakra-ui/react'
 import { FcFlashOn} from 'react-icons/fc'
 
-const GridTemplate1= ({title, desc,desc2,desc3,desc4,desc5, src, left, right}) => {
+const GridTemplate1= ({title, desc,desc2,desc3,desc4,desc5, src}) => {
 
   return (
   <>

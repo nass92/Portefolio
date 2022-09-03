@@ -7,7 +7,7 @@ import {SiSolidity, SiWeb3Dotjs, SiIpfs} from 'react-icons/si'
 import {FaHardHat, FaEthereum} from 'react-icons/fa'
 import {ReactComponent as Zep1} from '../assets/zep.svg'
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
-import { Box, Grid, GridItem, Heading, Text, Button, Link, Icon, Center  } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Heading, Text, Button, Link, Icon } from "@chakra-ui/react";
 import GridTemplate3 from "./compo/Grid3";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import '../Styles/Pages/Home.css'

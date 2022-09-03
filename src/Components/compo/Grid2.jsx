@@ -7,7 +7,7 @@ import {
 } from '@chakra-ui/react'
 import SliderExp from "./Slider";
 
-const GridTemplate2= ({color ,color2, color3, src, left, right, val,icon, icon2, icon3, icon4, color4,color5, icon5, icon6, color6}) => {
+const GridTemplate2= ({color ,color2, color3,  val,icon, icon2, icon3, icon4, color4,color5, icon5, icon6, color6}) => {
 
   return (
   <>

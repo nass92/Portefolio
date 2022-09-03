@@ -5,7 +5,7 @@ import { Box, Grid, GridItem, HStack, Icon } from "@chakra-ui/react";
 import ButtonsBottom from "../ButtonBottom";
 
 
-const GridTemplate3= ({color ,color2, color3, src, left, right, val,icon, icon2, icon3, icon4, color4,color5, icon5, icon6, color6, color7, icon7, icon8, color8, icon9, color9, icon10, color10, icon11, color11, icon12, color12}) => {
+const GridTemplate3= ({color ,color2, color3, left, right, val,icon, icon2, icon3, icon4, color4,color5, icon5, icon6, color6, color7, icon7, icon8, color8, icon9, color9, icon10, color10, icon11, color11, icon12, color12}) => {
 
   return (
   <>

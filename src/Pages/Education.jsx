@@ -1,8 +1,7 @@
 import '../Styles/Pages/Home.css'
 import { motion } from "framer-motion";
 import React from "react";
-import { Box, Center, Grid, GridItem,ListItem, ListIcon, List, Heading } from "@chakra-ui/react";
-import Reveale from '../Components/class/Reveal';
+import { Grid, GridItem,ListItem, ListIcon, List, Heading } from "@chakra-ui/react";
 import ButtonsBottom from '../Components/ButtonBottom';
 import { Fade } from 'react-reveal';
 import { Controls, Player } from '@lottiefiles/react-lottie-player';

@@ -1,7 +1,6 @@
 import React from 'react';
 import '@lottiefiles/lottie-player';
 import { create } from '@lottiefiles/lottie-interactivity';
-import { Fade } from 'react-reveal';
 import '../../Styles/Pages/Home.css'
 class Back extends React.Component {
   constructor(props) {
